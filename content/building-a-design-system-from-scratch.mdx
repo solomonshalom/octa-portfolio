@@ -43,7 +43,7 @@ After pouring countless hours into this project and sharing my progress over the
 <Callout variant="info">
 
 Want to look at what I built before jumping into this blog post?
-You can check out [@avbethel/design-system](https://github.com/MaximeHeckel/design-system), the open-source repository of this project.
+You can check out [@MaximeHeckel/design-system](https://github.com/MaximeHeckel/design-system), the open-source repository of this project.
 
 **Note**: This repository is still a work in progress, I have not yet migrated all the components to it!
 
@@ -528,7 +528,7 @@ In this last part, I want to focus on the _shipping_ aspect of a design system s
 _Should you build an individual library?_ _Or have one package per component?_
 These are valid questions when thinking about how your projects will consume your design system.
 
-Since I optimized for simplicity throughout this project, I chose to have one package for my entire design system: `@avbethel/design-system`. Thus, I'd only have to ever worry about versioning this one library. However, this came with one major pitfall: **I now had to make my package _tree shakable_ so importing one component of my design system would not result in a big increase in bundle size on my projects**.
+Since I optimized for simplicity throughout this project, I chose to have one package for my entire design system: `@MaximeHeckel/design-system`. Thus, I'd only have to ever worry about versioning this one library. However, this came with one major pitfall: **I now had to make my package _tree shakable_ so importing one component of my design system would not result in a big increase in bundle size on my projects**.
 
 If you're curious about other versioning/packaging patterns along with their respective advantages and drawbacks I'd recommend checking out [Design System versioning: single library or individual components?](https://bradfrost.com/blog/post/design-system-versioning-single-library-or-individual-components/) from <Anchor discreet favicon href="https://twitter.com/brad_frost">@brad_frost</Anchor>. It's an excellent read, and it helped me through my decision process for the versioning of this project.
 
@@ -630,10 +630,10 @@ Thanks to this configuration, I had a way to generate a **tree-shakable package*
 
 ```jsx
 // This will make the project's bundle *slightly* heavier
-import { Button } from '@avbethel/design-system';
+import { Button } from '@MaximeHeckel/design-system';
 
 // This will make the project's bundle *much* heavier
-import { Button, Flex, Grid, Icon, Text } from '@avbethel/design-system';
+import { Button, Flex, Grid, Icon, Text } from '@MaximeHeckel/design-system';
 ```
 
 ### Releasing
@@ -642,7 +642,7 @@ For the release process of this project, I opted for a _semi-manual_ approach fo
 
 - Releases are triggered manually on Github via a [repository dispatch](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch) event.
 - I select the `branch` and the release type (`major/minor/patch`) based on the versioning rules I established earlier.
-- A Github workflow then starts and will bump the version based on the selected release type and publish the package on [NPM](https://www.npmjs.com/package/@avbethel/design-system).
+- A Github workflow then starts and will bump the version based on the selected release type and publish the package on [NPM](https://www.npmjs.com/package/@MaximeHeckel/design-system).
 
 <VideoPlayer
   src="https://d2xl4m2ghaywko.cloudfront.net/release-design-system.mp4 "
@@ -668,7 +668,7 @@ This will most likely deserve a standalone blog post 👀 as there's a lot to ta
 
 As of writing these words, this project is still a work in progress. **The resulting package is already actively being used on this blog and my upcoming portfolio** (which is yet another massive project I have in progress). There's, however, still _a lot_ left to do before I could publish what I could consider a good `v1.0`! Among the things left are:
 
-- Migrating the rest of the components to `@avbethel/design-system`.
+- Migrating the rest of the components to `@MaximeHeckel/design-system`.
 - Providing more primitive components such as `Modal` or `Tabs`.
 - Including a couple of utility React hooks that I use in all my projects like `useDebounce` or `useKeyboardShortcut`.
 - More experimentations with little micro-interactions to provide the best experience to the people visiting my sites. (and that includes you 😄!)

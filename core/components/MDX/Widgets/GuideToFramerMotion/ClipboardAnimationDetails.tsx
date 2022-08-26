@@ -1,4 +1,4 @@
-import { Card, Grid, Label, Range } from '@avbethel/design-system';
+import { Card, Grid, Label, Range } from '@MaximeHeckel/design-system';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 import React from 'react';
 import { AnimationCardContent, Form, HighlightedValue } from '../Components';

@@ -1,4 +1,4 @@
-import { useTheme } from '@avbethel/design-system';
+import { useTheme } from '@MaximeHeckel/design-system';
 import Sandpack from '@theme/components/Code/Sandpack';
 import snippet1 from './snippet1';
 import snippet2 from './snippet2';

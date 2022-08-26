@@ -1,4 +1,4 @@
-import { ThemeContext, Tooltip } from '@avbethel/design-system';
+import { ThemeContext, Tooltip } from '@MaximeHeckel/design-system';
 import { fireEvent, render } from '@testing-library/react';
 import preloadAll from 'jest-next-dynamic';
 import React from 'react';

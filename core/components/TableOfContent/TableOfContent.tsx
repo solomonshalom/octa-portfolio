@@ -1,4 +1,4 @@
-import { Anchor, Box, styled } from '@avbethel/design-system';
+import { Anchor, Box, styled } from '@MaximeHeckel/design-system';
 import useProgress from '@theme/hooks/useProgress';
 import useScrollSpy from '@theme/hooks/useScrollSpy';
 import { useReducedMotion, motion } from 'framer-motion';

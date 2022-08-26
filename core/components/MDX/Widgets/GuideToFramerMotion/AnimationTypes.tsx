@@ -3,7 +3,7 @@ import {
   Label,
   Range,
   useDebouncedValue,
-} from '@avbethel/design-system';
+} from '@MaximeHeckel/design-system';
 import { HighlightedCodeText } from '@theme/components/Code/CodeBlock';
 import { motion } from 'framer-motion';
 import React from 'react';

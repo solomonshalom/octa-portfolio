@@ -1,4 +1,4 @@
-import { Card, Range } from '@avbethel/design-system';
+import { Card, Range } from '@MaximeHeckel/design-system';
 import { curveBasisOpen } from '@visx/curve';
 import { scaleLinear } from '@visx/scale';
 import { LinePath } from '@visx/shape';

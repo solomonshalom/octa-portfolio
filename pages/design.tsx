@@ -27,7 +27,7 @@ import {
   Checkbox,
   Switch,
   Radio,
-} from '@avbethel/design-system';
+} from '@MaximeHeckel/design-system';
 import Logo from '@theme/components/Logo';
 import Glow from '@theme/components/Glow';
 import CodeBlock from '@theme/components/Code/CodeBlock';

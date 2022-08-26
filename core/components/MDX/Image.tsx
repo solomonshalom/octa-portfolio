@@ -1,4 +1,4 @@
-import { styled, Text } from '@avbethel/design-system';
+import { styled, Text } from '@MaximeHeckel/design-system';
 import { loader } from 'lib/next-image-loader';
 import NextImage, { ImageProps } from 'next/image';
 

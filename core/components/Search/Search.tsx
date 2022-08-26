@@ -4,7 +4,7 @@ import {
   Label,
   useDebouncedValue,
   useTheme,
-} from '@avbethel/design-system';
+} from '@MaximeHeckel/design-system';
 import FocusTrap from 'focus-trap-react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';

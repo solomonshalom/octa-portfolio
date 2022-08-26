@@ -1,4 +1,4 @@
-import { css, styled, Flex } from '@avbethel/design-system';
+import { css, styled, Flex } from '@MaximeHeckel/design-system';
 import { motion } from 'framer-motion';
 
 export const HeaderWrapper = styled(motion.header, {

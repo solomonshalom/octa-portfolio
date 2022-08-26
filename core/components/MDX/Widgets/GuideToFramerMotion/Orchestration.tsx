@@ -1,4 +1,4 @@
-import { Card, Range, useDebouncedValue } from '@avbethel/design-system';
+import { Card, Range, useDebouncedValue } from '@MaximeHeckel/design-system';
 import { motion } from 'framer-motion';
 import React from 'react';
 import { AnimationCardContent, Form, HighlightedValue } from '../Components';

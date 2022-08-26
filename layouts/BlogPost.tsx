@@ -6,7 +6,7 @@ import {
   Grid,
   Pill,
   Text,
-} from '@avbethel/design-system';
+} from '@MaximeHeckel/design-system';
 import { format } from 'date-fns';
 import Link from 'next/link';
 import React from 'react';

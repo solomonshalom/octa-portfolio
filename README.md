@@ -8,4 +8,4 @@ It's built with:
 - Stitches / CSS
 - MDX
 
-Design is handmade and packaged separately at [@avbethel/design-system](https://github.com/MaximeHeckel/design-system).
+Design is handmade and packaged separately at [@MaximeHeckel/design-system](https://github.com/MaximeHeckel/design-system).

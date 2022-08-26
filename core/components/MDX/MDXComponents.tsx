@@ -15,7 +15,7 @@ import {
   H2,
   H3,
   Strong,
-} from '@avbethel/design-system';
+} from '@MaximeHeckel/design-system';
 import Code from '@theme/components/Code';
 import VideoPlayer from '@theme/components/VideoPlayer';
 

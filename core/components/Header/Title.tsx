@@ -1,4 +1,4 @@
-import { Text } from '@avbethel/design-system';
+import { Text } from '@MaximeHeckel/design-system';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 import { fixTruncate, HeaderTitleWrapper } from './Styles';
 import { HeaderTitleProps } from './types';

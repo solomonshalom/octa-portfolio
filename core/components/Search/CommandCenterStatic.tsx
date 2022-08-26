@@ -1,4 +1,4 @@
-import { css, Icon, VisuallyHidden } from '@avbethel/design-system';
+import { css, Icon, VisuallyHidden } from '@MaximeHeckel/design-system';
 import Link from 'next/link';
 import { MAX_HEIGHT } from './constants';
 import { Separator, Item, KBD } from './Styles';

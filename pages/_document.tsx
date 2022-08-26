@@ -1,4 +1,4 @@
-import { getCssText } from '@avbethel/design-system';
+import { getCssText } from '@MaximeHeckel/design-system';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import Script from 'next/script';
 

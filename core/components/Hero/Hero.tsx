@@ -1,4 +1,4 @@
-import { H1, styled } from '@avbethel/design-system';
+import { H1, styled } from '@MaximeHeckel/design-system';
 import Image from 'next/image';
 import React from 'react';
 import { loader } from '../../../lib/next-image-loader';

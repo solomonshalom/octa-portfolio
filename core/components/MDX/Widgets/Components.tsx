@@ -1,4 +1,4 @@
-import { styled } from '@avbethel/design-system';
+import { styled } from '@MaximeHeckel/design-system';
 
 export const TransitionGridWrapper = styled('div', {
   display: 'grid',

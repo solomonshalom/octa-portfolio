@@ -6,9 +6,9 @@ import {
   Icon,
   Text,
   Tooltip,
-} from '@avbethel/design-system';
+} from '@MaximeHeckel/design-system';
 import { AnimatePresence, LayoutGroup, motion, Reorder } from 'framer-motion';
-import { css, styled } from '@avbethel/design-system';
+import { css, styled } from '@MaximeHeckel/design-system';
 import React from 'react';
 
 const HR = styled('hr', {

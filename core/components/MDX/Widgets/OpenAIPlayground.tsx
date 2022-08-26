@@ -4,7 +4,7 @@ import {
   Flex,
   Switch,
   TextArea,
-} from '@avbethel/design-system';
+} from '@MaximeHeckel/design-system';
 import React from 'react';
 
 type PromptStatus = 'submitting' | 'idle';

@@ -5,7 +5,7 @@ import {
   Icon,
   Range,
   Tooltip,
-} from '@avbethel/design-system';
+} from '@MaximeHeckel/design-system';
 import useInterval from '@theme/hooks/useInterval';
 import { Group } from '@visx/group';
 import { ParentSize } from '@visx/responsive';
