@@ -165,8 +165,7 @@ const NewsletterForm = (props: Props) => {
               }}
               variant="secondary"
             >
-              Get email from me about my ideas, frontend development resources
-              and tips as well as exclusive previews of upcoming articles.
+              Get email from me about my life as a pastor and more! inclusing exclusive previews of upcoming articles.
             </Text>
             <br />
           </>
