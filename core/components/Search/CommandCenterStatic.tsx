@@ -1,4 +1,4 @@
-import { css, Icon, VisuallyHidden } from '@maximeheckel/design-system';
+import { css, Icon, VisuallyHidden } from '@avbethel/design-system';
 import Link from 'next/link';
 import { MAX_HEIGHT } from './constants';
 import { Separator, Item, KBD } from './Styles';
@@ -36,7 +36,7 @@ const CommandCenterStatic = () => (
       </Link>
     </Item>
     <Item data-testid="navigation" key="design-navigation">
-      <Link href="/design/">
+      <Link href="#">
         <a>
           <Icon.Arrow size={4} />
           <span style={{ marginLeft: '20px' }}>Design System</span>
@@ -46,7 +46,7 @@ const CommandCenterStatic = () => (
     <Separator>Links</Separator>
     <Item data-testid="link" key="twitter-social-link">
       <a
-        href="https://twitter.com/MaximeHeckel"
+        href="https://twitter.com/avbethel"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -54,13 +54,13 @@ const CommandCenterStatic = () => (
         <span style={{ marginLeft: '15px' }}>Twitter</span>
         <VisuallyHidden as="p">
           Link redirects to my Twitter profile page
-          https://twitter.com/MaximeHeckel.
+          https://twitter.com/avbethel.
         </VisuallyHidden>
       </a>
     </Item>
     <Item data-testid="link" key="email-link">
       <a
-        href="mailto:hello@maximeheckel.com"
+        href="mailto:hello@avbethel.com"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -68,7 +68,7 @@ const CommandCenterStatic = () => (
         <span style={{ marginLeft: '15px' }}>Contact</span>
         <VisuallyHidden as="p">
           Link opens your default mail client with my email address
-          hello@maximeheckel.com prefilled.
+          hello@avbethel.com prefilled.
         </VisuallyHidden>
       </a>
     </Item>

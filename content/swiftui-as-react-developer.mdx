@@ -327,12 +327,12 @@ However, unlike React, where your state can technically take pretty complex obje
 
 ```swift title=Code Snippet of the example featured above:
 class User {
-    var username = "@MaximeHeckel"
+    var username = "@avbethel"
 }
 
 struct ContentView: View {
     @State private var user = User()
-    @State private var username = "@MaximeHeckel"
+    @State private var username = "@avbethel"
 
     var body: some View {
         VStack {
@@ -395,10 +395,10 @@ struct ContentView : View {
 
 ```
 
-There are plenty of modifiers available to developers to handle these side effects in SwiftUI. The `.onChange` modifier will let you **trigger some functions whenever a variable of your choosing changes**. The `.onReceive` modifier can be **used for timers** or [to detect whether the app is going to the background or foreground](https://twitter.com/MaximeHeckel/status/1302985146044420096). Sadly, there are too many to cover them all in this post. I'll make sure to mention any interesting ones in future articles dedicated to SwiftUI.
+There are plenty of modifiers available to developers to handle these side effects in SwiftUI. The `.onChange` modifier will let you **trigger some functions whenever a variable of your choosing changes**. The `.onReceive` modifier can be **used for timers** or [to detect whether the app is going to the background or foreground](https://twitter.com/avbethel/status/1302985146044420096). Sadly, there are too many to cover them all in this post. I'll make sure to mention any interesting ones in future articles dedicated to SwiftUI.
 
 ## Conclusion
 
 The striking resemblance of some of the key design patterns of React and SwiftUI really helped me to quickly get started with native iOS development. **I was personally really pleased to see that I could port all the knowledge I've accumulated over the years** while building web apps to develop native iOS apps. Obviously, not everything is that easy, there are a lot of other things that can be counter-intuitive in SwiftUI, but **getting started and building a simple app is definitely feasible for anyone with some React experience**.
 
-Hopefully, that this article will inspire you to get started as well! The SwiftUI community has been growing quite significantly in the last few months. I've seen **many designers and frontend developers** jumping onboard and showcasing some pretty impressive work in a short amount of time. I'm actually **currently developing my first app myself** and sharing the ongoing work and some useful code snippets on Twitter, [follow me](https://twitter.com/MaximeHeckel) if you want to see my progress I'm making on this project! I also hope to see your future iOS app on my timeline or even on the App Store in the near future, and to hear more about your SwiftUI experience 😊!
+Hopefully, that this article will inspire you to get started as well! The SwiftUI community has been growing quite significantly in the last few months. I've seen **many designers and frontend developers** jumping onboard and showcasing some pretty impressive work in a short amount of time. I'm actually **currently developing my first app myself** and sharing the ongoing work and some useful code snippets on Twitter, [follow me](https://twitter.com/avbethel) if you want to see my progress I'm making on this project! I also hope to see your future iOS app on my timeline or even on the App Store in the near future, and to hear more about your SwiftUI experience 😊!

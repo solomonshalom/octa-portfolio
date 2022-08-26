@@ -22,7 +22,7 @@ colorFeatured: 'linear-gradient(135deg, rgba(241, 96, 138, 1) 10%, rgba(170, 104
 fontFeatured: '#FFFFFF'
 ---
 
-I was recently looking for ways [to automate sharing code snippets](https://twitter.com/MaximeHeckel/status/1263110355666046977), I thought that generating these code snippets images by calling a serverless function could be a pretty cool use case to apply some of the serverless concepts and tricks I've learned the past few months.
+I was recently looking for ways [to automate sharing code snippets](https://twitter.com/avbethel/status/1263110355666046977), I thought that generating these code snippets images by calling a serverless function could be a pretty cool use case to apply some of the serverless concepts and tricks I've learned the past few months.
 My aim here was to be able to send a file or the string of a code snippet to an endopoint that would call a function and get back the base64 string representing the screenshot of that same code snippet. I could then put that base 64 string inside a png file and get an image. Sounds awesome right? Well, in this post I'll describe how I built this!
 
 <Callout variant="info">
@@ -327,7 +327,7 @@ Otherwise, you can find all the code featured in this post in [this Github repos
 
 After reading all this you might be asking yourself: "But Maxime, what are you going to do with this? And why did you put this in a serverless function to begin with?". Here's a list of the few use cases I might have for this function:
 
-- To generate images for my meta tags for some articles or snippets (I already do this now 👉 https://twitter.com/MaximeHeckel/status/1263855151695175680)
+- To generate images for my meta tags for some articles or snippets (I already do this now 👉 https://twitter.com/avbethel/status/1263855151695175680)
 - To be able to generate carbon images from the CLI and share them with my team at work or other developers quickly
 - Enable a "screenshot" option for the code snippets in my blog posts so my readers could easily download code screenshots.
 - Many other ideas that I'm still working on right now!

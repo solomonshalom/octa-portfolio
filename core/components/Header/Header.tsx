@@ -3,7 +3,7 @@ import {
   Grid,
   Tooltip,
   useKeyboardShortcut,
-} from '@maximeheckel/design-system';
+} from '@avbethel/design-system';
 import Logo from '@theme/components/Logo';
 import useProgress from '@theme/hooks/useProgress';
 import useScrollCounter from '@theme/hooks/useScrollCounter';
@@ -57,9 +57,9 @@ const Header = (props: HeaderProps) => {
         aria-label="Follow me on Twitter"
         title="Follow me on Twitter"
         rel="me"
-        href="https://twitter.com/MaximeHeckel"
+        href="https://twitter.com/avbethel"
       >
-        @MaximeHeckel
+        @avbethel
       </a>
       {/**
        * Gracefully show the search component when activated

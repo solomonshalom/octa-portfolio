@@ -1,4 +1,4 @@
-import { styled, Anchor, Text } from '@maximeheckel/design-system';
+import { styled, Anchor, Text } from '@avbethel/design-system';
 import WebmentionReplies from '@theme/components/Webmentions/WebmentionReplies';
 import dynamic from 'next/dynamic';
 
@@ -35,7 +35,7 @@ const Signature = ({ title, url }: { title: string; url: string }) => {
           privately? Don&rsquo;t hesitate to shoot me a DM on{' '}
           <Anchor
             favicon
-            href="http://twitter.com/MaximeHeckel"
+            href="http://twitter.com/avbethel"
             target="_blank"
             rel="noopener noreferrer"
           >

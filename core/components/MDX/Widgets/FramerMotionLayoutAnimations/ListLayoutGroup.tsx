@@ -6,7 +6,7 @@ import {
   Pill,
   Text,
   Switch,
-} from '@maximeheckel/design-system';
+} from '@avbethel/design-system';
 import { HighlightedCodeText } from '@theme/components/Code/CodeBlock';
 import { AnimatePresence, LayoutGroup, motion } from 'framer-motion';
 import React from 'react';

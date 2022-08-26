@@ -6,7 +6,7 @@ import {
   Grid,
   Pill,
   Text,
-} from '@maximeheckel/design-system';
+} from '@avbethel/design-system';
 import { format } from 'date-fns';
 import Link from 'next/link';
 import React from 'react';
@@ -88,7 +88,7 @@ const BlogLayout = ({ children, frontMatter, ogImage }: Props) => {
   React.useEffect(() => {
     /**
      * Working around some race condition quirks :) (don't judge)
-     * TODO @MaximeHeckel: see if there's a better way through a remark plugin to do this
+     * TODO @avbethel: see if there's a better way through a remark plugin to do this
      */
     setTimeout(() => {
       const titles = document.querySelectorAll('h2');

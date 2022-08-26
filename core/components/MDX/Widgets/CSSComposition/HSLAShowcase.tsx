@@ -1,4 +1,4 @@
-import { Card, Flex, InlineCode, Range } from '@maximeheckel/design-system';
+import { Card, Flex, InlineCode, Range } from '@avbethel/design-system';
 import React from 'react';
 import { AnimationCardContent, Form, HighlightedValue } from '../Components';
 

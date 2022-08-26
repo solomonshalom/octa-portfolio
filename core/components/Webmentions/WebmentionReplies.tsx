@@ -1,4 +1,4 @@
-import { Anchor, Text } from '@maximeheckel/design-system';
+import { Anchor, Text } from '@avbethel/design-system';
 import dynamic from 'next/dynamic';
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
@@ -17,7 +17,7 @@ const WebmentionReplies = ({ title, url }: Props) => {
 
   const [replies, setReplies] = React.useState<Reply[]>([]);
   const perPage = 500;
-  const text = `${title} by @MaximeHeckel ${url}`;
+  const text = `${title} by @avbethel ${url}`;
 
   const getMentions = React.useCallback(
     () =>

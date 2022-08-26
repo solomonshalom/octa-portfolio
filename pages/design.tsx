@@ -27,7 +27,7 @@ import {
   Checkbox,
   Switch,
   Radio,
-} from '@maximeheckel/design-system';
+} from '@avbethel/design-system';
 import Logo from '@theme/components/Logo';
 import Glow from '@theme/components/Glow';
 import CodeBlock from '@theme/components/Code/CodeBlock';
@@ -542,13 +542,13 @@ export default function Design(props: {
           <H2>Anchor</H2>
           <Grid gap={1}>
             <h3>
-              <Anchor href="https://twitter.com/MaximeHeckel" favicon>
-                @MaximeHeckel
+              <Anchor href="https://twitter.com/avbethel" favicon>
+                @avbethel
               </Anchor>
             </h3>
             <p>
-              <Anchor href="https://twitter.com/MaximeHeckel" discreet favicon>
-                @MaximeHeckel
+              <Anchor href="https://twitter.com/avbethel" discreet favicon>
+                @avbethel
               </Anchor>
             </p>
             <h3>
@@ -567,7 +567,7 @@ export default function Design(props: {
               </Anchor>
             </h3>
             <h3>
-              <Anchor href="https://twitter.com/MaximeHeckel" arrow="right">
+              <Anchor href="https://twitter.com/avbethel" arrow="right">
                 Twitter
               </Anchor>
             </h3>
@@ -581,12 +581,12 @@ export default function Design(props: {
               </Anchor>
             </p>
             <h3>
-              <Anchor href="/design" underline>
+              <Anchor href="#" underline>
                 Design System
               </Anchor>
             </h3>
             <p>
-              <Anchor discreet href="/design" underline>
+              <Anchor discreet href="#" underline>
                 Design System
               </Anchor>{' '}
             </p>
@@ -599,7 +599,7 @@ export default function Design(props: {
               aria-label="Email"
               id="email-input"
               type="email"
-              placeholder="hello@maximeheckel.com"
+              placeholder="hello@avbethel.com"
               onChange={(event) => setEmail(event.currentTarget.value)}
               value={email}
             />
@@ -634,7 +634,7 @@ export default function Design(props: {
               aria-label="Email"
               id="email-input"
               type="email"
-              placeholder="hello@maximeheckel.com"
+              placeholder="hello@avbethel.com"
               onChange={(event) => setEmail(event.currentTarget.value)}
               value={email}
               autoComplete="off"
@@ -645,9 +645,9 @@ export default function Design(props: {
               id="email-input-disabled"
               type="email"
               disabled
-              placeholder="hello@maximeheckel.com"
+              placeholder="hello@avbethel.com"
               onChange={() => {}}
-              value="hello@maximeheckel.com"
+              value="hello@avbethel.com"
             />
 
             <TextInput
@@ -903,7 +903,7 @@ they can change the world, are the ones who do.`}
           <H2>Tooltip</H2>
           <Tooltip
             id="exampletooltip"
-            content="@MaximeHeckel"
+            content="@avbethel"
             visuallyHiddenText="Follow Me on Twitter"
           >
             <Flex

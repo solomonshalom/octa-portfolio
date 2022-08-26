@@ -6,7 +6,7 @@ import {
   Text,
   EM,
   Flex,
-} from '@maximeheckel/design-system';
+} from '@avbethel/design-system';
 import Logo from '@theme/components/Logo';
 import Link from 'next/link';
 
@@ -64,7 +64,7 @@ const Footer = () => (
               <Grid>
                 <Anchor
                   discreet
-                  href="https://twitter.com/MaximeHeckel"
+                  href="https://twitter.com/avbethel"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

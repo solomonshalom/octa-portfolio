@@ -1,4 +1,4 @@
-import { Anchor, Box, styled } from '@maximeheckel/design-system';
+import { Anchor, Box, styled } from '@avbethel/design-system';
 import useProgress from '@theme/hooks/useProgress';
 import useScrollSpy from '@theme/hooks/useScrollSpy';
 import { useReducedMotion, motion } from 'framer-motion';
@@ -110,7 +110,7 @@ const TableOfContent = ({ ids }: TableOfContentProps) => {
     const offsetPosition = elementPosition - 100;
 
     /**
-     * Note @MaximeHeckel: This doesn't work on Safari :(
+     * Note @avbethel: This doesn't work on Safari :(
      * TODO: find an alternative for Safari
      */
     window.scrollTo({

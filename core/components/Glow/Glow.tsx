@@ -1,4 +1,4 @@
-import { css, keyframes, styled } from '@maximeheckel/design-system';
+import { css, keyframes, styled } from '@avbethel/design-system';
 import { GlowProps } from './types';
 
 const pulse = keyframes({

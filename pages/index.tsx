@@ -14,7 +14,7 @@ import {
   H1,
   H2,
   H3,
-} from '@maximeheckel/design-system';
+} from '@avbethel/design-system';
 import { format } from 'date-fns';
 import { motion, MotionProps } from 'framer-motion';
 import dynamic from 'next/dynamic';
@@ -116,16 +116,16 @@ const IndexPage = (props: Props) => {
               </VisuallyHidden>
             </a>
             <a
-              href="https://twitter.com/MaximeHeckel"
+              href="https://twitter.com/avbethel"
               style={{ textDecoration: 'none' }}
               tabIndex={-1}
             >
               <Button variant="secondary" endIcon={<Icon.Twitter />}>
-                @MaximeHeckel
+                @avbethel
               </Button>
               <VisuallyHidden as="p">
                 Link redirects to my Twitter profile page
-                https://twitter.com/MaximeHeckel.
+                https://twitter.com/avbethel.
               </VisuallyHidden>
             </a>
           </Flex>
