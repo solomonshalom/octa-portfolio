@@ -107,7 +107,7 @@ const IndexPage = (props: Props) => {
               style={{ textDecoration: 'none' }}
               tabIndex={-1}
             >
-              <Button variant="secondary" endIcon={<Icon.Instagram />}>
+              <Button variant="secondary" endIcon={<Icon.External />}>
                 About me
               </Button>
               <VisuallyHidden as="p">
