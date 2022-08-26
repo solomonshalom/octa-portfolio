@@ -1,4 +1,4 @@
-import { styled, useTheme } from '@MaximeHeckel/design-system';
+import { styled, useTheme } from '@maximeheckel/design-system';
 import React from 'react';
 
 interface VideoPlayerProps {

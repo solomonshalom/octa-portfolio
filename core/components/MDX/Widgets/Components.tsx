@@ -1,4 +1,4 @@
-import { styled } from '@MaximeHeckel/design-system';
+import { styled } from '@maximeheckel/design-system';
 
 export const TransitionGridWrapper = styled('div', {
   display: 'grid',

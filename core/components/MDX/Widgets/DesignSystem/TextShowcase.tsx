@@ -1,4 +1,4 @@
-import { Card, Flex, Text } from '@MaximeHeckel/design-system';
+import { Card, Flex, Text } from '@maximeheckel/design-system';
 import { HighlightedCodeText } from '@theme/components/Code/CodeBlock';
 import React from 'react';
 

@@ -5,7 +5,7 @@ import {
   Icon,
   InlineCode,
   styled,
-} from '@MaximeHeckel/design-system';
+} from '@maximeheckel/design-system';
 import { AnimatePresence, motion } from 'framer-motion';
 import React from 'react';
 import { AnimationCardContent, TransitionGridWrapper } from '../Components';

@@ -3,7 +3,7 @@ import {
   Grid,
   Tooltip,
   useKeyboardShortcut,
-} from '@MaximeHeckel/design-system';
+} from '@maximeheckel/design-system';
 import Logo from '@theme/components/Logo';
 import useProgress from '@theme/hooks/useProgress';
 import useScrollCounter from '@theme/hooks/useScrollCounter';

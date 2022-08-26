@@ -8,7 +8,7 @@ import {
   TextInput,
   EM,
   H3,
-} from '@MaximeHeckel/design-system';
+} from '@maximeheckel/design-system';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
 import React from 'react';
 import { useMutation } from 'react-query';

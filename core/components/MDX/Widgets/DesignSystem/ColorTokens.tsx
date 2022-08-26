@@ -8,7 +8,7 @@ import {
   Text,
   Tooltip,
   useTheme,
-} from '@MaximeHeckel/design-system';
+} from '@maximeheckel/design-system';
 import LightDarkSwitcher from '@theme/components/Buttons/LightDarkSwitcher';
 import { AnimatePresence, motion } from 'framer-motion';
 import React from 'react';

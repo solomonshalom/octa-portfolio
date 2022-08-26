@@ -4,7 +4,7 @@ import {
   globalStyles,
   ThemeProvider,
   Tooltip,
-} from '@MaximeHeckel/design-system';
+} from '@maximeheckel/design-system';
 import { DefaultSeo } from '@theme/components/Seo';
 import 'styles/global.css';
 import 'styles/font.css';

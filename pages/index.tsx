@@ -14,7 +14,7 @@ import {
   H1,
   H2,
   H3,
-} from '@MaximeHeckel/design-system';
+} from '@maximeheckel/design-system';
 import { format } from 'date-fns';
 import { motion, MotionProps } from 'framer-motion';
 import dynamic from 'next/dynamic';

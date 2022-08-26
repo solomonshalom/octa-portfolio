@@ -8,7 +8,7 @@ import {
   Pill,
   Switch,
   Tooltip,
-} from '@MaximeHeckel/design-system';
+} from '@maximeheckel/design-system';
 import { HighlightedCodeText } from '@theme/components/Code/CodeBlock';
 import { motion } from 'framer-motion';
 import React from 'react';

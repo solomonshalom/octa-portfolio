@@ -6,7 +6,7 @@ import {
   Text,
   EM,
   Flex,
-} from '@MaximeHeckel/design-system';
+} from '@maximeheckel/design-system';
 import Logo from '@theme/components/Logo';
 import Link from 'next/link';
 

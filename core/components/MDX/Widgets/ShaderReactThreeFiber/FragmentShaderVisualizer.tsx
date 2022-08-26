@@ -7,7 +7,7 @@ import {
   Radio,
   Text,
   Tooltip,
-} from '@MaximeHeckel/design-system';
+} from '@maximeheckel/design-system';
 import { HighlightedCodeText } from '@theme/components/Code/CodeBlock';
 import React from 'react';
 

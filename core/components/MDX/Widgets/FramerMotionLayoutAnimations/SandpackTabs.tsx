@@ -1,4 +1,4 @@
-import { useTheme } from '@MaximeHeckel/design-system';
+import { useTheme } from '@maximeheckel/design-system';
 import Sandpack from '@theme/components/Code/Sandpack';
 
 const AppCode = `import { motion } from 'framer-motion';

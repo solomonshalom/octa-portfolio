@@ -7,7 +7,7 @@ import {
   Icon,
   Switch,
   Tooltip,
-} from '@MaximeHeckel/design-system';
+} from '@maximeheckel/design-system';
 import useInterval from '@theme/hooks/useInterval';
 import { Drag } from '@visx/drag';
 import { Group } from '@visx/group';

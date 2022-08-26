@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { styled, Anchor, Grid, H1, H3 } from '@MaximeHeckel/design-system';
+import { styled, Anchor, Grid, H1, H3 } from '@maximeheckel/design-system';
 import { DefaultSeo } from '@theme/components/Seo';
 import Link from 'next/link';
 import siteConfig from '../config/site';
