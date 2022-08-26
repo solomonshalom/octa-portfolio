@@ -8,3 +8,7 @@ out_publish
 .next
 .github/actions/gh-action-snippetify/dist
 yarn.lock
+*.html
+*.tsx
+**/.tsx
+.tsx
