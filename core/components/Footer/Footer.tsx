@@ -50,7 +50,7 @@ const Footer = () => (
                 <Link href="/" passHref>
                   <Anchor discreet>Home</Anchor>
                 </Link>
-                <Link href="/design" passHref>
+                <Link href="#" passHref>
                   <Anchor discreet>Design</Anchor>
                 </Link>
                 <Link href="/rss.xml" passHref>
