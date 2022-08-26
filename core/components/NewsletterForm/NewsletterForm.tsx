@@ -113,7 +113,7 @@ const NewsletterForm = (props: Props) => {
               variant="secondary"
             >
               Subscribe to{' '}
-              <Anchor underline href="https://buttondown.email/MaximeHeckel">
+              <Anchor underline href="https://buttondown.email/#">
                 my newsletter
               </Anchor>{' '}
               to receive a monthly digest containing:
@@ -140,8 +140,7 @@ const NewsletterForm = (props: Props) => {
                   }}
                   variant="secondary"
                 >
-                  <EM>Exclusive previews of upcoming articles</EM> on frontent
-                  development, React, and SwiftUI
+                  <EM>Exclusive previews of upcoming articles</EM> in my life!
                 </Text>
               </List.Item>
               <List.Item>
@@ -152,9 +151,7 @@ const NewsletterForm = (props: Props) => {
                   }}
                   variant="secondary"
                 >
-                  Some of my <EM>favorite resources and tips</EM> on frontend
-                  development or anything I&apos;m currently interested in to
-                  further expand your skillset as a developer
+                  Some of my favorite verses alongside with a small <EM>devotion</EM>!
                 </Text>
               </List.Item>
             </List>

@@ -89,11 +89,10 @@ const IndexPage = (props: Props) => {
       <Grid columns="medium" gapX={4} gapY={12} className={wrapperGrid()}>
         <Box>
           <H1>
-            Hi <WavingHand /> I'm Maxime, and this is my blog.{' '}
+            Hi <WavingHand /> I'm Abraham, Servant of the Lord Jesus Christ, Husband And Dad.{' '}
             <Text variant="secondary" size="7" weight="4">
-              Here, I share through my writing my experience as a frontend
-              engineer and everything I'm learning about on React, Typescript,
-              SwiftUI, Serverless, and testing.
+              Here, I share through my writing my experience as a pastor at BethelAG
+              and everything I'm learning/experiencing in my life!
             </Text>
           </H1>
           <Flex
@@ -104,15 +103,15 @@ const IndexPage = (props: Props) => {
             }}
           >
             <a
-              href="https://maximeheckel.com"
+              href="https://www.instagram.com/avbethel/?hl=en"
               style={{ textDecoration: 'none' }}
               tabIndex={-1}
             >
-              <Button variant="secondary" endIcon={<Icon.External />}>
+              <Button variant="secondary" endIcon={<Icon.Instagram />}>
                 About me
               </Button>
               <VisuallyHidden as="p">
-                Link redirects to my portfolio https://maximeheckel.com.
+                Link redirects to my instagram https://instagram.com/avbethel.
               </VisuallyHidden>
             </a>
             <a
