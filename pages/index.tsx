@@ -108,7 +108,7 @@ const IndexPage = (props: Props) => {
               tabIndex={-1}
             >
               <Button variant="secondary" endIcon={<Icon.External />}>
-                About me
+                @avbethel
               </Button>
               <VisuallyHidden as="p">
                 Link redirects to my instagram https://instagram.com/avbethel.
