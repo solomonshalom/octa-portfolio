@@ -1,4 +1,5 @@
 import { styled, Anchor, Text } from '@maximeheckel/design-system';
+import WebmentionReplies from '@theme/components/Webmentions/WebmentionReplies';
 import dynamic from 'next/dynamic';
 
 const NewsletterForm = dynamic(
@@ -24,10 +25,11 @@ const ColoredBlockWrapper = styled('div', {
   },
 });
 
-const Signature = () => {
+const Signature = ({ title, url }: { title: string; url: string }) => {
   return (
     <ColoredBlockWrapper data-testid="signature">
       <section>
+        <WebmentionReplies title={title} url={url} />
         <Text as="p">
           Do you have any questions, comments or simply wish to contact me
           privately? Don&rsquo;t hesitate to shoot me a DM on{' '}
