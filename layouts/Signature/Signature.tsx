@@ -1,5 +1,4 @@
 import { styled, Anchor, Text } from '@maximeheckel/design-system';
-import WebmentionReplies from '@theme/components/Webmentions/WebmentionReplies';
 import dynamic from 'next/dynamic';
 
 const NewsletterForm = dynamic(
