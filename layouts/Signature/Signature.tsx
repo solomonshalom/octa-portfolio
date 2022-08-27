@@ -24,7 +24,7 @@ const ColoredBlockWrapper = styled('div', {
   },
 });
 
-const Signature = ({ title, url }: { title: string; url: string }) => {
+const Signature = () => {
   return (
     <ColoredBlockWrapper data-testid="signature">
       <section>
