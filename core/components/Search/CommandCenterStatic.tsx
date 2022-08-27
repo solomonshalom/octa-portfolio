@@ -36,10 +36,10 @@ const CommandCenterStatic = () => (
       </Link>
     </Item>
     <Item data-testid="navigation" key="design-navigation">
-      <Link href="#">
+      <Link href="https://solomonlijo.vercel.app">
         <a>
           <Icon.Arrow size={4} />
-          <span style={{ marginLeft: '20px' }}>Design System</span>
+          <span style={{ marginLeft: '20px' }}>Author</span>
         </a>
       </Link>
     </Item>
@@ -74,28 +74,15 @@ const CommandCenterStatic = () => (
     </Item>
     <Item data-testid="link" key="roadmap-link">
       <a
-        href="https://www.figma.com/file/uvkUCtxXs7Vvmj58sHh0TE/Maxime's-Public-Roadmap?node-id=0%3A1"
+        href="https:/bethelagindia.org"
         target="_blank"
         rel="noopener noreferrer"
       >
         <Icon.Map />
-        <span style={{ marginLeft: '15px' }}>Roadmap</span>
+        <span style={{ marginLeft: '15px' }}>Church</span>
         <VisuallyHidden as="p">
           Link redirects to a Figjam file where you can see the roadmap with my
           upcoming projects and ideas.
-        </VisuallyHidden>
-      </a>
-    </Item>
-    <Item data-testid="link" key="maximeheckelcom-link">
-      <a
-        href="https://maximeheckel.com"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Icon.Portfolio />
-        <span style={{ marginLeft: '15px' }}>Work</span>
-        <VisuallyHidden as="p">
-          Link redirects to my portfolio https://maximeheckel.com.
         </VisuallyHidden>
       </a>
     </Item>
