@@ -89,7 +89,7 @@ const IndexPage = (props: Props) => {
       <Grid columns="medium" gapX={4} gapY={12} className={wrapperGrid()}>
         <Box>
           <H1>
-            Hi <WavingHand /> I'm Abraham, Servant of the Lord Jesus Christ, Husband And Dad.{' '}
+            Hi! I'm Abraham, Servant of the Lord Jesus Christ, Husband And Dad.{' '}
             <Text variant="secondary" size="7" weight="4">
               Here, I share through my writing my experience as a pastor at BethelAG
               and everything I'm learning/experiencing in my life!
