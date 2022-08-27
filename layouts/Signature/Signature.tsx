@@ -46,7 +46,7 @@ const Signature = ({ title, url }: { title: string; url: string }) => {
         <br />
         <Text as="p">
           Have a wonderful day. <br />
-          Maxime
+          Rev. Abraham Varghese
         </Text>
         <NewsletterForm />
       </section>
