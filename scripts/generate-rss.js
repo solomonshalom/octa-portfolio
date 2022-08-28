@@ -41,12 +41,12 @@ const matter = require('gray-matter');
 
   try {
     const feed = new RSS({
-      title: "Maxime Heckel's Blog",
+      title: "Rev. Abraham Varghese",
       description:
-        "Hi I'm Maxime, and this is my blog. Here, I share through my writing my experience as a frontend engineer and everything I'm learning about on React, Typescript, SwiftUI, Serverless, and testing.",
-      site_url: 'https://blog.maximeheckel.com',
-      feed_url: 'https://blog.maximeheckel.com/rss.xml',
-      image_url: 'https://blog.maximeheckel.com/static/og/main-og-image.png',
+        "Hi! I'm Abraham, Servant of the Lord Jesus Christ, Husband And Dad. Here, I share through my writing my experience as a pastor at BethelAG and everything I'm learning/experiencing in my life!",
+      site_url: 'https://octa-portfolio.vercel.app/',
+      feed_url: 'https://octa-portfolio.vercel.app/rss.xml',
+      image_url: '#',
       language: 'en',
     });
 
@@ -56,7 +56,7 @@ const matter = require('gray-matter');
     ].sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
 
     content.forEach((post) => {
-      const url = `https://blog.maximeheckel.com/${
+      const url = `https://octa-portfolio.vercel.app/${
         post.type === 'snippet' ? 'snippets' : 'posts'
       }/${post.slug}`;
 
