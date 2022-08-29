@@ -1,6 +1,6 @@
-# blog.maximeheckel.com
+# Octa
 
-This is the main code base for [my blog](https://blog.maximeheckel.com).
+This is the main code base for my client's [blog](https://octa-portfolio.vercel.app).
 
 It's built with:
 
@@ -8,4 +8,6 @@ It's built with:
 - Stitches / CSS
 - MDX
 
-Design is handmade and packaged separately at [@maximeheckel/design-system](https://github.com/MaximeHeckel/design-system).
+# Design Philosphy 
+
+I wanted to make a simple but attractive portfolio, with minimalism in my mind. I achieved this by creating minimal sections, such as the homescreen and the newsletter. The part where it is attrative, is in the blog. 
