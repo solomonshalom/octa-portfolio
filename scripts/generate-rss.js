@@ -12,7 +12,6 @@ const matter = require('gray-matter');
 
   const typeToPath = {
     blog: 'content',
-    snippet: 'snippets',
   };
 
   function getPosts(type) {
@@ -57,7 +56,7 @@ const matter = require('gray-matter');
 
     content.forEach((post) => {
       const url = `https://octa-portfolio.vercel.app/${
-        post.type === 'snippet' ? 'snippets' : 'posts'
+        post.type === 'posts'
       }/${post.slug}`;
 
       feed.item({

@@ -57,12 +57,6 @@ const Pill = styled('span', {
 export default Pill;
 `;
 
-const SNIPPETS = {
-  snippet1,
-  snippet2,
-  snippet3,
-  snippet4,
-};
 
 const GuideToFramerMotionSandpack = (props: any) => {
   const { snippet } = props;
@@ -78,7 +72,6 @@ const GuideToFramerMotionSandpack = (props: any) => {
       files={{
         '/App.js': {
           // @ts-ignore
-          code: SNIPPETS[snippet],
         },
         '/Pill.js': {
           code: PillCode,

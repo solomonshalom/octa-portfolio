@@ -117,7 +117,7 @@ const Search = (props: Props) => {
         switch (event.key) {
           case 'Enter':
             const href = `/${
-              selectedResult.type === 'snippet' ? 'snippets' : 'posts'
+              selectedResult.type === 'posts'
             }/${selectedResult.slug}/`;
             router.push(href).then(() => window.scrollTo(0, 0));
             setTimeout(onClose, 600);
@@ -276,7 +276,7 @@ const Search = (props: Props) => {
                   >
                     <Link
                       href={`/${
-                        result.type === 'snippet' ? 'snippets' : 'posts'
+                        result.type === 'posts'
                       }/${result.slug}`}
                     >
                       <a onClick={() => setTimeout(onClose, 600)}>

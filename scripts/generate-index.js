@@ -14,7 +14,6 @@ const lunr = require('lunr');
 
   const typeToPath = {
     blog: 'content',
-    snippet: 'snippets',
   };
 
   function getPosts(type) {

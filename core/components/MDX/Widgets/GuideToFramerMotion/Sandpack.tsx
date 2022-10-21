@@ -28,13 +28,6 @@ canvas {
     height: 100vh;
 }`;
 
-const SNIPPETS = {
-  snippet1,
-  snippet2,
-  snippet3,
-  snippet4,
-  snippet5,
-};
 
 const GuideToFramerMotionSandpack = (props: any) => {
   const { snippet } = props;
@@ -50,7 +43,6 @@ const GuideToFramerMotionSandpack = (props: any) => {
       files={{
         '/App.js': {
           // @ts-ignore
-          code: SNIPPETS[snippet],
         },
         '/scene.css': {
           code: dark ? SceneCSSDark : SceneCSSLight,

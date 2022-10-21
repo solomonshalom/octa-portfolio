@@ -10,7 +10,6 @@ import { remarkMeta } from './remark-meta';
 
 const typeToPath = {
   [PostType.BLOGPOST]: 'content',
-  [PostType.SNIPPET]: 'snippets',
 };
 
 const root = process.cwd();
