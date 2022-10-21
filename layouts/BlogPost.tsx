@@ -17,7 +17,6 @@ import Seo from '@theme/components/Seo';
 import Hero from '@theme/components/Hero';
 import WebmentionCount from '@theme/components/Webmentions/WebmentionCount';
 import { Post, ReadingTime } from 'types/post';
-import Signature from './Signature';
 
 interface WebmentionBlogDataProps {
   date: string;
@@ -163,7 +162,6 @@ const BlogLayout = ({ children, frontMatter, ogImage }: Props) => {
           <TableOfContent ids={ids} />
           <Box className={contentClass()}>{children}</Box>
         </Grid>
-        <Signature title={title} url={postUrl} />
         <WebmentionBlogData date={date} postUrl={postUrl} subtitle={subtitle} />
       </article>
     </Layout>
